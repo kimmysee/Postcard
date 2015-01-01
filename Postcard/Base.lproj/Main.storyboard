@@ -105,6 +105,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BC8-st-jgK"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULf-S8-Eds">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="185" width="213" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="lnc-Jb-IXX"/>
                                 <exclude reference="CYu-Pz-Mhl"/>
                                 <exclude reference="SeG-I8-OWi"/>
+                                <exclude reference="ULf-S8-Eds"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="lnc-Jb-IXX"/>
                                 <include reference="CYu-Pz-Mhl"/>
                                 <include reference="SeG-I8-OWi"/>
+                                <include reference="ULf-S8-Eds"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="p1I-fS-nCJ" id="LRr-wy-Vy6"/>
                         <outlet property="mailButton" destination="SeG-I8-OWi" id="4Nq-rl-RcL"/>
                         <outlet property="messageLabel" destination="CYu-Pz-Mhl" id="2bG-mE-9gI"/>
+                        <outlet property="nameLabel" destination="ULf-S8-Eds" id="Gqn-DT-CHV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
